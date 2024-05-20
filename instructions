@@ -1,0 +1,19 @@
+# Thread Synchronization and Signal Handling in C with Shared Memory and Bash Script Control
+
+# This is a comprehensive C application that integrates multithreading, signal handling, and shared memory management, alongside a controlling bash script. The challenge is divided into specific requirements to test your proficiency in system programming and script automation.
+
+## one must grant execution permission to launch_app.sh.
+- chmod +x  launch_app.sh
+
+## To compile the C application
+- make
+
+## To run the c application
+- ./main &
+
+## To send SIGINT Signal 
+- ctrl + c
+
+## To run control script
+- ./launch_app.sh &  
+### (Run this in terminal where "&" represent the duration till we want to run.)
