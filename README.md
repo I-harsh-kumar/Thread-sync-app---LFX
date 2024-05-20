@@ -36,19 +36,19 @@ This application spawns two threads to share data through a shared memory segmen
   ## Detailed Instructions:
 
   #### one must grant execution permission to launch_app.sh.
-  - chmod +x  launch_app.sh
+  - 'chmod +x  launch_app.sh'
 
   #### To compile the C application
-  - make
+  - 'make'
 
   #### To run the c application
-  - ./main &
+  - './main &'
 
   #### To send SIGINT Signal 
-  - ctrl + c
+  - 'ctrl + c'
 
   #### To run control script
-  - ./launch_app.sh &  
+  './launch_app.sh &'  
 
   ##### (Run this in terminal where "&" represent the duration till we want to run.)
 
