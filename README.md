@@ -30,8 +30,8 @@ This application spawns two threads to share data through a shared memory segmen
 
 ## Build Instructions:
 - Ensure you have GCC installed on your Linux distribution.
-- Compile the C application using "make".
-- Use the bash script to launch the application: ./launch_app.sh <duration>.
+- Compile the C application using `make`.
+- Use the bash script to launch the application: `./launch_app.sh <duration>`.
 
   ## Detailed Instructions:
 
